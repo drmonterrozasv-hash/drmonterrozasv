@@ -1,14 +1,552 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>iSGLT2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>iSGLT2: beneficios para diabetes, corazón y riñones | Dr. Carlos Monterroza</title>
+
+<meta name="description" content="Conozca qué son los inhibidores SGLT2, cómo funcionan y sus beneficios en diabetes tipo 2, insuficiencia cardíaca y enfermedad renal crónica.">
+<meta name="keywords" content="iSGLT2, dapagliflozina, empagliflozina, diabetes tipo 2, enfermedad renal crónica, insuficiencia cardíaca, albuminuria, Santa Ana, Dr. Carlos Monterroza">
+<link rel="canonical" href="https://www.drmonterrozasv.com/blog/isglt2-beneficios-diabetes-corazon-rinones/">
+
+<meta property="og:title" content="iSGLT2: beneficios para diabetes, corazón y riñones">
+<meta property="og:description" content="Medicamentos que ayudan al control de la diabetes y protegen corazón y riñones.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.drmonterrozasv.com/blog/isglt2-beneficios-diabetes-corazon-rinones/">
+<meta property="og:image" content="https://www.drmonterrozasv.com/assets/dr-carlos-monterroza.jpeg">
+
+<style>
+:root{
+--primary:#0f6f7a;
+--dark:#084c55;
+--gold:#c8a75d;
+--bg:#f7fbfc;
+--text:#1f2933;
+--muted:#5b6b73;
+--soft:#e9f7f8;
+--white:#ffffff;
+}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.7;
+}
+.topbar{
+background:#062f35;
+color:#fff;
+text-align:center;
+padding:8px 5%;
+font-size:14px;
+}
+header{
+background:linear-gradient(135deg,var(--dark),var(--primary));
+color:white;
+padding:14px 6%;
+position:sticky;
+top:0;
+z-index:50;
+box-shadow:0 4px 18px rgba(0,0,0,.16);
+}
+.nav{
+max-width:1180px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:18px;
+}
+.brand{
+display:flex;
+gap:12px;
+align-items:center;
+font-weight:800;
+}
+.brand img{
+width:58px;
+height:58px;
+object-fit:contain;
+background:white;
+border-radius:14px;
+padding:5px;
+}
+.nav a{
+color:white;
+text-decoration:none;
+margin-left:14px;
+font-weight:700;
+font-size:14px;
+}
+.hero{
+background:linear-gradient(135deg,rgba(8,76,85,.96),rgba(15,111,122,.92)),url('/assets/dr-carlos-monterroza.jpeg');
+background-size:cover;
+background-position:center;
+color:white;
+padding:80px 6%;
+text-align:center;
+}
+.hero h1{
+font-size:clamp(34px,5vw,58px);
+line-height:1.05;
+margin:0 0 18px;
+}
+.hero p{
+font-size:20px;
+max-width:850px;
+margin:auto;
+}
+main{
+max-width:980px;
+margin:auto;
+background:white;
+padding:42px;
+border-radius:26px;
+box-shadow:0 14px 40px rgba(0,0,0,.08);
+margin-top:-40px;
+position:relative;
+z-index:5;
+}
+h2{
+color:var(--dark);
+font-size:30px;
+margin-top:38px;
+}
+h3{
+color:var(--primary);
+font-size:23px;
+}
+p{font-size:18px}
+ul li{
+font-size:18px;
+margin-bottom:8px;
+}
+.badge{
+display:inline-block;
+background:var(--soft);
+color:var(--dark);
+padding:8px 14px;
+border-radius:999px;
+font-weight:800;
+font-size:14px;
+margin-bottom:20px;
+}
+.info-box{
+background:var(--soft);
+border-left:6px solid var(--primary);
+padding:22px;
+border-radius:18px;
+margin:26px 0;
+}
+.warning-box{
+background:#fff7e6;
+border-left:6px solid var(--gold);
+padding:22px;
+border-radius:18px;
+margin:26px 0;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+margin:24px 0;
+}
+.card{
+background:#ffffff;
+border:1px solid rgba(15,111,122,.18);
+border-radius:20px;
+padding:24px;
+box-shadow:0 8px 24px rgba(0,0,0,.06);
+}
+.card h3{
+margin-top:0;
+}
+table{
+width:100%;
+border-collapse:collapse;
+margin:26px 0;
+font-size:16px;
+}
+th{
+background:var(--primary);
+color:white;
+padding:12px;
+text-align:left;
+}
+td{
+border:1px solid #d9e5e7;
+padding:12px;
+vertical-align:top;
+}
+tr:nth-child(even){
+background:#f6fbfc;
+}
+.cta{
+background:linear-gradient(135deg,var(--dark),var(--primary));
+color:white;
+padding:34px;
+border-radius:24px;
+text-align:center;
+margin-top:42px;
+}
+.cta h2{
+color:white;
+margin-top:0;
+}
+.btn{
+display:inline-block;
+padding:14px 22px;
+border-radius:999px;
+text-decoration:none;
+font-weight:800;
+margin:8px;
+}
+.btn-gold{
+background:var(--gold);
+color:#172026;
+}
+.btn-white{
+background:white;
+color:var(--dark);
+}
+.author{
+background:#f4f7f8;
+padding:24px;
+border-radius:20px;
+margin-top:34px;
+font-size:16px;
+}
+footer{
+background:#062f35;
+color:white;
+text-align:center;
+padding:30px 6%;
+font-size:14px;
+margin-top:50px;
+}
+footer a{
+color:white;
+}
+.wa{
+position:fixed;
+right:22px;
+bottom:22px;
+background:#25D366;
+color:white;
+padding:15px 22px;
+border-radius:999px;
+text-decoration:none;
+font-weight:900;
+box-shadow:0 10px 30px rgba(0,0,0,.28);
+z-index:100;
+}
+@media(max-width:850px){
+.grid{grid-template-columns:1fr}
+.nav{flex-direction:column;align-items:flex-start}
+.nav a{margin-left:0;margin-right:10px}
+main{padding:26px;margin-top:-25px;border-radius:20px}
+.hero{padding:60px 5%}
+}
+</style>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"MedicalWebPage",
+"name":"iSGLT2: beneficios para diabetes, corazón y riñones",
+"description":"Artículo para pacientes sobre inhibidores SGLT2, diabetes tipo 2, protección renal y cardiovascular.",
+"url":"https://www.drmonterrozasv.com/blog/isglt2-beneficios-diabetes-corazon-rinones/",
+"author":{
+"@type":"Physician",
+"name":"Dr. Carlos Alfredo Monterroza Monterroza",
+"medicalSpecialty":["Diabetology","InternalMedicine"]
+},
+"publisher":{
+"@type":"MedicalClinic",
+"name":"Clínica Especializada Monte Sinaí",
+"telephone":"+50324477373",
+"email":"drmonterrozasv@drmonterrozasv.com",
+"address":{
+"@type":"PostalAddress",
+"streetAddress":"13 Calle Oriente entre 3ª Avenida Sur y Avenida Independencia Sur",
+"addressLocality":"Santa Ana",
+"addressCountry":"SV"
+}
+}
+}
+</script>
+
 </head>
+
 <body>
 
-<h1>Inhibidores del Cotransportador Sodio-Glucosa Tipo 2 (iSGLT2)</h1>
+<div class="topbar">📞 Citas: 2447-7373 | WhatsApp: 6105-9922 | Santa Ana, El Salvador</div>
 
-<p>Artículo en construcción.</p>
+<header>
+<div class="nav">
+<div class="brand">
+<img src="/assets/logo-monte-sinai.jpeg" alt="Logo Clínica Especializada Monte Sinaí">
+<div>
+Clínica Especializada Monte Sinaí<br>
+<small>Dr. Carlos A. Monterroza</small>
+</div>
+</div>
+<nav>
+<a href="/">Inicio</a>
+<a href="/servicios/">Servicios</a>
+<a href="/estudios-diagnosticos/">Estudios</a>
+<a href="/blog/">Blog</a>
+<a href="/contacto/">Contacto</a>
+<a href="/ubicacion/">Ubicación</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="badge">Artículo para pacientes</div>
+<h1>Inhibidores del Cotransportador Sodio-Glucosa Tipo 2</h1>
+<p>iSGLT2: medicamentos que ayudan al control de la diabetes y también protegen corazón y riñones.</p>
+</section>
+
+<main>
+
+<p><strong>Publicado por:</strong> Dr. Carlos Alfredo Monterroza Monterroza, Médico Diabetólogo.</p>
+
+<p>
+Los inhibidores del cotransportador sodio-glucosa tipo 2, conocidos como <strong>iSGLT2</strong>, son medicamentos que inicialmente fueron desarrollados para tratar la Diabetes Mellitus Tipo 2. Sin embargo, con el paso de los años se ha demostrado que sus beneficios van mucho más allá del control de la glucosa.
+</p>
+
+<p>
+Hoy se consideran medicamentos de gran importancia para pacientes con diabetes, enfermedad renal crónica, albuminuria, insuficiencia cardíaca y alto riesgo cardiovascular.
+</p>
+
+<div class="info-box">
+<strong>Idea clave:</strong> los iSGLT2 no solo bajan la glucosa. También pueden ayudar a proteger el corazón, los riñones y reducir el riesgo de hospitalización por insuficiencia cardíaca en pacientes seleccionados.
+</div>
+
+<h2>¿Qué son los iSGLT2?</h2>
+
+<p>
+Los iSGLT2 son medicamentos que actúan a nivel del riñón. Su función principal es bloquear una proteína llamada cotransportador sodio-glucosa tipo 2, responsable de reabsorber parte de la glucosa filtrada por los riñones.
+</p>
+
+<p>
+Al bloquear este mecanismo, el cuerpo elimina glucosa por la orina, lo que ayuda a disminuir los niveles de azúcar en sangre.
+</p>
+
+<h2>Medicamentos más conocidos de este grupo</h2>
+
+<table>
+<tr>
+<th>Medicamento</th>
+<th>Nombre genérico</th>
+<th>Uso frecuente</th>
+</tr>
+<tr>
+<td>Empagliflozina</td>
+<td>Empagliflozina</td>
+<td>Diabetes tipo 2, protección cardiovascular, insuficiencia cardíaca y enfermedad renal en pacientes seleccionados.</td>
+</tr>
+<tr>
+<td>Dapagliflozina</td>
+<td>Dapagliflozina</td>
+<td>Diabetes tipo 2, insuficiencia cardíaca y enfermedad renal crónica en pacientes seleccionados.</td>
+</tr>
+<tr>
+<td>Canagliflozina</td>
+<td>Canagliflozina</td>
+<td>Diabetes tipo 2 y protección renal/cardiovascular en pacientes seleccionados.</td>
+</tr>
+<tr>
+<td>Ertugliflozina</td>
+<td>Ertugliflozina</td>
+<td>Diabetes tipo 2.</td>
+</tr>
+</table>
+
+<h2>¿Cómo funcionan?</h2>
+
+<p>
+El riñón filtra glucosa todos los días. En condiciones normales, gran parte de esa glucosa vuelve a la sangre. Los iSGLT2 reducen esa reabsorción y favorecen la eliminación de glucosa por la orina.
+</p>
+
+<p>Esto puede producir varios efectos:</p>
+
+<ul>
+<li>Disminución de glucosa en sangre.</li>
+<li>Reducción moderada de peso.</li>
+<li>Disminución leve de la presión arterial.</li>
+<li>Reducción de albuminuria en algunos pacientes.</li>
+<li>Protección cardiovascular y renal en grupos específicos.</li>
+</ul>
+
+<h2>Beneficios en Diabetes Mellitus Tipo 2</h2>
+
+<p>
+En personas con Diabetes Mellitus Tipo 2, los iSGLT2 pueden ayudar a mejorar el control glucémico. Su efecto sobre la glucosa suele ser moderado, pero tienen una ventaja importante: no suelen causar hipoglucemia cuando se usan solos.
+</p>
+
+<div class="grid">
+<div class="card">
+<h3>Control glucémico</h3>
+<p>Ayudan a disminuir la glucosa en sangre y pueden reducir la hemoglobina glucada.</p>
+</div>
+<div class="card">
+<h3>Peso corporal</h3>
+<p>Al eliminar glucosa por la orina, pueden favorecer una reducción moderada de peso.</p>
+</div>
+<div class="card">
+<h3>Presión arterial</h3>
+<p>Pueden contribuir a una reducción discreta de la presión arterial.</p>
+</div>
+<div class="card">
+<h3>Bajo riesgo de hipoglucemia</h3>
+<p>Cuando se usan sin insulina o sulfonilureas, el riesgo de hipoglucemia suele ser bajo.</p>
+</div>
+</div>
+
+<h2>Beneficios para el corazón</h2>
+
+<p>
+Uno de los mayores avances de estos medicamentos ha sido demostrar beneficios en insuficiencia cardíaca. En pacientes seleccionados, los iSGLT2 pueden reducir hospitalizaciones por falla cardíaca y mejorar el pronóstico cardiovascular.
+</p>
+
+<p>
+Por esta razón, actualmente no se consideran únicamente medicamentos para “bajar azúcar”, sino herramientas cardiorrenales importantes.
+</p>
+
+<h2>Beneficios para los riñones</h2>
+
+<p>
+La diabetes y la hipertensión arterial son causas frecuentes de daño renal. Una señal temprana de este daño puede ser la presencia de albúmina en la orina, conocida como albuminuria.
+</p>
+
+<p>
+Los iSGLT2 pueden ayudar a disminuir la progresión de la enfermedad renal crónica en pacientes seleccionados, especialmente cuando existe albuminuria o riesgo cardiorrenal elevado.
+</p>
+
+<div class="warning-box">
+<strong>Importante:</strong> estos medicamentos deben indicarse después de evaluar la función renal, presión arterial, hidratación, antecedentes de infecciones y medicamentos actuales.
+</div>
+
+<h2>¿Quiénes pueden beneficiarse?</h2>
+
+<p>Su médico puede considerar un iSGLT2 en pacientes con:</p>
+
+<ul>
+<li>Diabetes Mellitus Tipo 2.</li>
+<li>Enfermedad renal crónica.</li>
+<li>Albuminuria.</li>
+<li>Insuficiencia cardíaca.</li>
+<li>Alto riesgo cardiovascular.</li>
+<li>Diabetes asociada a hipertensión arterial, obesidad o daño renal temprano.</li>
+</ul>
+
+<h2>¿Quiénes requieren mayor precaución?</h2>
+
+<p>Se necesita valoración cuidadosa en personas con:</p>
+
+<ul>
+<li>Deshidratación o baja ingesta de líquidos.</li>
+<li>Infecciones urinarias o genitales recurrentes.</li>
+<li>Presión arterial baja.</li>
+<li>Uso de diuréticos.</li>
+<li>Enfermedad renal avanzada.</li>
+<li>Adultos mayores frágiles.</li>
+<li>Procedimientos quirúrgicos programados.</li>
+</ul>
+
+<h2>Posibles efectos secundarios</h2>
+
+<p>
+Aunque en general son bien tolerados, pueden producir algunos efectos adversos:
+</p>
+
+<ul>
+<li>Mayor frecuencia urinaria.</li>
+<li>Infecciones genitales por hongos.</li>
+<li>Infecciones urinarias en algunos pacientes.</li>
+<li>Mareo por reducción de presión arterial.</li>
+<li>Deshidratación si no hay adecuada ingesta de líquidos.</li>
+<li>Riesgo poco frecuente de cetoacidosis, incluso con glucosa no muy elevada.</li>
+</ul>
+
+<h2>Cuidados al usarlos</h2>
+
+<p>
+Para reducir riesgos, es importante:
+</p>
+
+<ul>
+<li>Tomarlos únicamente bajo indicación médica.</li>
+<li>Mantener adecuada hidratación.</li>
+<li>Informar al médico si hay fiebre, vómitos, diarrea o cirugía programada.</li>
+<li>No suspender ni iniciar el medicamento sin supervisión.</li>
+<li>Realizar controles de función renal y glucosa según indicación.</li>
+</ul>
+
+<h2>Preguntas frecuentes</h2>
+
+<h3>¿Los iSGLT2 son solo para personas con diabetes?</h3>
+<p>No necesariamente. Algunos pacientes sin diabetes pueden recibirlos por insuficiencia cardíaca o enfermedad renal crónica, según indicación médica.</p>
+
+<h3>¿Ayudan a bajar de peso?</h3>
+<p>Pueden favorecer una reducción moderada de peso, aunque no son medicamentos diseñados principalmente para adelgazar.</p>
+
+<h3>¿Puedo tomarlos si uso insulina?</h3>
+<p>En algunos casos sí, pero debe ajustarse y vigilarse cuidadosamente el tratamiento para evitar complicaciones.</p>
+
+<h3>¿Protegen los riñones?</h3>
+<p>En pacientes seleccionados, especialmente con enfermedad renal crónica o albuminuria, pueden ayudar a disminuir la progresión del daño renal.</p>
+
+<h3>¿Pueden causar infección urinaria?</h3>
+<p>Algunos pacientes pueden presentar infecciones urinarias o genitales. Es importante consultar si hay ardor, secreción, mal olor, fiebre o dolor.</p>
+
+<h2>Conclusión</h2>
+
+<p>
+Los iSGLT2 representan uno de los avances más importantes en el tratamiento moderno de la diabetes y las enfermedades cardiorrenales. Su utilidad va más allá de bajar la glucosa, ya que pueden ayudar a proteger el corazón y los riñones en pacientes seleccionados.
+</p>
+
+<p>
+Sin embargo, no todos los pacientes son candidatos. La decisión debe individualizarse según edad, función renal, presión arterial, riesgo cardiovascular, medicamentos actuales y antecedentes clínicos.
+</p>
+
+<div class="cta">
+<h2>¿Tiene diabetes, hipertensión o enfermedad renal?</h2>
+<p>Una evaluación médica integral permite detectar daño renal temprano, riesgo cardiovascular y definir si un iSGLT2 es adecuado para usted.</p>
+<a class="btn btn-gold" href="https://wa.me/50361059922" target="_blank">Agendar cita por WhatsApp</a>
+<a class="btn btn-white" href="/contacto/">Ver información de contacto</a>
+</div>
+
+<div class="author">
+<strong>Dr. Carlos Alfredo Monterroza Monterroza</strong><br>
+Médico Diabetólogo<br>
+Clínica Especializada Monte Sinaí<br>
+13 Calle Oriente entre 3ª Avenida Sur y Avenida Independencia Sur, Santa Ana Centro, Santa Ana, El Salvador.<br>
+Tel. 2447-7373 | WhatsApp 6105-9922<br>
+Correo: drmonterrozasv@drmonterrozasv.com<br>
+Sitio web: www.drmonterrozasv.com
+</div>
+
+</main>
+
+<a class="wa" href="https://wa.me/50361059922" target="_blank">WhatsApp</a>
+
+<footer>
+<strong>Clínica Especializada Monte Sinaí</strong><br>
+Atención a Enfermedades del Adulto · Hipertensión Arterial y Enfermedades Cardiovasculares · Diabetología · Cuidados Paliativos<br>
+MAPA 24 Horas · Holter Cardíaco · Electrocardiograma<br>
+13 Calle Oriente entre 3ª Avenida Sur y Avenida Independencia Sur, Santa Ana Centro, Santa Ana, El Salvador<br>
+Tel. 2447-7373 · WhatsApp 6105-9922 · drmonterrozasv@drmonterrozasv.com<br><br>
+<a href="/politica-de-privacidad/">Política de Privacidad</a> ·
+<a href="/terminos-y-condiciones/">Términos y Condiciones</a> ·
+<a href="/aviso-medico-legal/">Aviso Médico Legal</a>
+</footer>
 
 </body>
 </html>
+```
